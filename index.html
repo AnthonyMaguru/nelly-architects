@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NELLY Architects | Modern Architecture</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">NELLY Architects</a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section (Auto-Scrolling Banner) -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('N15.jpg');">
+                <div class="container">
+                    <h1>Innovative <span>Architectural</span> Design</h1>
+                    <p>Creating spaces that inspire and endure.</p>
+                    <a href="#projects" class="btn">View Our Work</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('N5.jpg');">
+                <div class="container">
+                    <h1>Sustainable <span>Spaces</span></h1>
+                    <p>Eco-friendly designs for the future.</p>
+                    <a href="#projects" class="btn">Explore Projects</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('N2.jpg');">
+                <div class="container">
+                    <h1>Luxury <span>Interiors</span></h1>
+                    <p>Tailored elegance for modern living.</p>
+                    <a href="#projects" class="btn">See Designs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials (Auto-Scrolling) -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"NELLY Architects transformed our home into a masterpiece. Their innovative approach and attention to detail created a space that exceeds all our expectations. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <img src="client1.jpg" alt="Sarah Johnson" class="author-image">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p class="author-role">Homeowner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Their attention to detail is unmatched. The team's professionalism and creativity made the entire process seamless. A pleasure to work with and the results are outstanding!"</p>
+                        <div class="testimonial-author">
+                            <img src="client2.jpg" alt="Michael Chen" class="author-image">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p class="author-role">Business Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Delivered beyond our expectations. The team's vision and execution were flawless. They turned our dream home into reality. Will definitely hire again for future projects!"</p>
+                        <div class="testimonial-author">
+                            <img src="client3.jpg" alt="Emily Rodriguez" class="author-image">
+                            <div class="author-info">
+                                <h4>Emily Rodriguez</h4>
+                                <p class="author-role">Interior Design Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <div class="filter-buttons">
+                <button class="active" data-filter="all">All</button>
+                <button data-filter="residential">Residential</button>
+                <button data-filter="commercial">Commercial</button>
+                <button data-filter="interior">Interior</button>
+            </div>
+            <div class="gallery">
+                <div class="project-item residential">
+                    <img src="N9.jpg" alt="Modern Villa">
+                    <div class="overlay">
+                        <h3>Modern Villa</h3>
+                        <p>Residential Design</p>
+                    </div>
+                </div>
+                <div class="project-item commercial">
+                    <img src="N3.jpg" alt="Office Tower">
+                    <div class="overlay">
+                        <h3>Office Tower</h3>
+                        <p>Commercial Design</p>
+                    </div>
+                </div>
+                <div class="project-item interior">
+                    <img src="N4.jpg" alt="Luxury Apartment">
+                    <div class="overlay">
+                        <h3>Luxury Apartment</h3>
+                        <p>Interior Design</p>
+                    </div>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Residential Design</h3>
+                    <p>Custom homes tailored to your lifestyle.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-building"></i>
+                    <h3>Commercial Spaces</h3>
+                    <p>Functional and aesthetic office designs.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-roller"></i>
+                    <h3>Interior Design</h3>
+                    <p>Harmonious and modern interiors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>NELLY Architects is a leading architecture firm dedicated to innovative and sustainable design. With over 15 years of experience, we transform visions into reality.</p>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+            <div class="about-image">
+                <img src="N20.jpg" alt="Our Team">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (With Google Maps) -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3370.817559924107!2d32.56839750680323!3d0.33555763463423627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb137456e7ef%3A0x283329d4b63678f6!2sSt.%20Augustine&#39;s%20Chapel%20Makerere!5e0!3m2!1sen!2sug!4v1753967913154!5m2!1sen!2sug" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 NELLY Architects. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
